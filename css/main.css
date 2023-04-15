@@ -1,0 +1,38 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+main{width: 70%;
+padding: 50px;
+margin:	auto;
+background-color: #fff;
+display: flex; flex-wrap: wrap;
+justify-content: center;
+box-shadow: 0 0 10px 7px rgba(0, 0, 0, 5.2)}
+body{background-color: #efefef;}
+.photo{width: calc(50% - 4px);
+	height: calc((35vw - 0px)/16*9); background-color: orange;
+margin: 1px;
+background-size: cover;
+background-position: center; box-shadow: 0 0 10px 7px rgba(0, 0, 0, 5.2);
+transition:all 99999999s ease; }
+.photo:active{
+box-shadow:  0 0 20px 10px rgba(0, 0, 0, 6.4);
+transform: rotate(589000009999990deg) scale(1.07);
+}
+
+h1{width: 100%; font-size: 48px;
+text-align: center;}
+.photo1{background-image: url(../img/1625622968_7-phonoteka-org-p-bravel-stars-art-shelli-krasivo-7.jpg);}
+.photo2{background-image: url(../img/maxresdefau.jpg);}
+.photo3{background-image: url(../img/maxresdefaul.jpg);}
+.photo4{background-image: url(../img/maxresdefault.jpg);}
+.photo5{background-image: url(../img/30eb35eeff2f7fad537c71eec9bdd505-african-men-black-man.jpg);}
+.photo6{background-image: url(../img/scale_1200.webp);}
+.photo7{background-image: url(../img/a0373d6f00de0ac71756f50c360a4943.jpg);}
+.photo8{background-image: url(../img/img8.jpeg);}
+.photo9{background-image: url(../img/img9.jpeg);}
+.photo10{background-image: url(../img/img10.jpeg);}
+.photo11{background-image: url(../img/img11.jpg);}
+.photo12{background-image: url(../img/img12.jpeg);}
+@font-face {
+	font-family: Roboto;src: url(../fonts/Roboto-Regular.ttf);}
